@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in Starquix is broken or behaves wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what you got instead. A screenshot or a screen recording helps a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Click …
+        3. See …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Starquix version
+      description: Menu bar → Starquix → About Starquix
+      placeholder: 0.3.0
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: Apple menu → About This Mac
+      placeholder: "15.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - New project made in Starquix
+        - Imported Astro site
