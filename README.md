@@ -20,7 +20,7 @@
 
 ## Design it, keep the code
 
-- **A canvas, not a form.** Pages, layers and a design panel, like in a design tool. Styling is Tailwind.
+- **It's on canvas.** Pages, layers and a design panel, like in a design tool. Styling is Tailwind.
 - **Real Astro files.** The site on the canvas is your Astro project. Open the same folder in your code editor at any time.
 - **Agents welcome.** Run a coding agent in the built-in terminal, or use the AI chat with your own API key. Their edits show up on the canvas.
 - **Blogs and SEO.** Content collections and SEO settings are built in.
